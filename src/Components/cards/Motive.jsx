@@ -1,5 +1,5 @@
 import React from 'react'
-import kids from '../../../kids.jpg'
+import kids from '../../../public/kids.jpg'
 
 const Motive = ({isFirst}) => {
   return (
