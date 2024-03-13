@@ -51,7 +51,7 @@ const HomePage = () => {
                 </h2>
             </div>
 
-            <div className='py-10 flex flex-wrap -mx-5'>
+            <div className='py-10 flex flex-wrap mx-auto'>
                 <Activity
                 image={volunteer}
                 heading={'Become Volunteer'}
@@ -81,11 +81,11 @@ const HomePage = () => {
                 <h2 className='font-bold text-2xl text-black '>Our Campaigns</h2>
             </div>
 
-            <div className='flex my-9 flex-wrap -mx-3 '>
-                <UserCard image={food} username={'Food'}/>
-                <UserCard image={clothes} username={'Clothes'}/>
-                <UserCard image={education} username={'Education'}/>
-                <UserCard image={medicine} username={'Medicine'}/>
+            <div className='flex my-9 flex-wrap mx-auto '>
+                <UserCard image={food} username={'Food'} isHome={true}/>
+                <UserCard image={clothes} username={'Clothes'} isHome={true}/>
+                <UserCard image={education} username={'Education'} isHome={true}/>
+                <UserCard image={medicine} username={'Medicine'} isHome={true}/>
             </div>
         </div>
         <Footer/>

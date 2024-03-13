@@ -6,9 +6,9 @@ const NavBar = () => {
     <>
         <nav className='bg-white shadow-lg p-2'>
             <div className='max-w-7xl mx-auto px-4'>
-                <div className='flex flex-wrap items-center h-16 font-semibold md:justify-around'>
+                <div className='flex flex-wrap items-center justify-center my-3 h-16 font-semibold md:justify-around'>
                     <div className='flex justify-center w-full md:w-auto mb-2 md:mb-0'>
-                        <ul className='flex flex-wrap space-x-4 md:space-x-7'>
+                        <ul className='flex flex-wrap space-x-10 md:space-x-7'>
                             <li>
                                 <Link to={'/'} className='className="text-black hover:text-gray-800"'>
                                     Home

@@ -9,6 +9,7 @@ import p1 from '../../public/p1.jpg'
 import p2 from '../../public/p2.jpg'
 import p3 from '../../public/p3.jpg'
 import p4 from '../../public/p4.jpg'
+import { FaSlash } from 'react-icons/fa6'
 
 
 const AboutPage = () => {
@@ -51,10 +52,10 @@ const AboutPage = () => {
                 />
 
                 <div className='flex flex-wrap -mx-3'>
-                    <UserCard image={p1} username={'Rahul'}/>
-                    <UserCard image={p2} username={'Isha'}/>
-                    <UserCard image={p3} username={'Priya'}/>
-                    <UserCard image={p4} username={'Jackson'}/>
+                    <UserCard image={p1} username={'Rahul'} isHome={false}/>
+                    <UserCard image={p2} username={'Isha'} isHome={false}/>
+                    <UserCard image={p3} username={'Priya'} isHome={false}/>
+                    <UserCard image={p4} username={'Jackson'} isHome={false}/>
                 </div>
             </div>
         </div>
