@@ -6,3 +6,11 @@
  - **Home**: [Home page](https://buddha-trust.vercel.app/)
  - **About**: [About page](https://buddha-trust.vercel.app/about)
  - **Contact**: [Contact Page](https://buddha-trust.vercel.app/contact)
+
+## Some Screenshots
+
+![home page](screenshots/home.png)
+
+___
+
+![contact page](screenshots/contact.png)
